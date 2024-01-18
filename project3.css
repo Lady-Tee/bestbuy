@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 .nav_container{
     /* border: 2px solid blue; */
@@ -9,11 +10,14 @@
     
 }
 .container1{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     /* height: 84px; */
     /* background-color: #003da6; */
     background-color: #0046be;
     color:#fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .navbar{
    /* border: 2px solid green; */
@@ -21,6 +25,11 @@
     color: #fff;
     margin-left: 50px;
 }
+@media screen and (max-width: 1024px) {
+    .navbar {
+      background-color: red;
+    }
+  }
 .wrap{
     /* border: 2px solid brown; */
     /* height: 50px; */
